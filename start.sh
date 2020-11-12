@@ -1,4 +1,5 @@
 #!/bin/bash
+cd
 sudo apt update
 git clone https://github.com/marlinprotocol/marlinctl.git
 mkdir temp
