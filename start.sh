@@ -10,6 +10,14 @@ cd
 sudo rm -rf /home/ubuntu/.profile
 cd marlin-node-setup
 sudo mv .profile /home/ubuntu/
+cd
 source ~/.profile
 sudo apt install make
 sudo apt install supervisor
+cd ~/marlin-node-setup
+sudo rm -rf /etc/sysctl.conf
+sudo mv sysctl.conf /etc/
+sudo sysctl --system
+cd ~/marlinctl
+make
+
