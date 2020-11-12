@@ -21,5 +21,6 @@ sudo mv sysctl.conf /etc/
 sudo sysctl --system
 cd ~/marlinctl
 make
+cd /home/ubuntu/marlinctl/bin
 
 
